@@ -19,9 +19,19 @@
 
     <section>
         <div>
-            <p>Hello Omar !!!</p>
+            <form action="/all-articles" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                 
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+                 
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age" required>
+    
+                <button class="create">Create</button>
+            </form>
         </div>
     </section>
-    
 </body>
 </html>
